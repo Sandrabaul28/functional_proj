@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+
+<html
+  lang="en"
+  class="light-style layout-menu-fixed layout-compact"
+  dir="ltr"
+  data-theme="theme-default"
+  data-assets-path="../assets/"
+  data-template="vertical-menu-template-free">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <title>Work Request Form</title>
+
+    <meta name="description" content="" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="../assets/vendor/fonts/boxicons.css" />
+
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="../assets/vendor/css/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="../assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="../assets/css/demo.css" />
+
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+
+    <!-- Page CSS -->
+
+    <!-- Helpers -->
+    <script src="../assets/vendor/js/helpers.js"></script>
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+    <script src="../assets/js/config.js"></script>
+  </head>
+
+  <body>
+    <!-- Layout wrapper -->
+    <div class="layout-wrapper layout-content-navbar">
+      <div class="layout-container">
+        <!-- Menu -->
+
+        <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+          <div class="app-brand demo">
+            <a href="index.html" class="app-brand-link">
+              <span class="app-brand-logo demo">
+                <svg
+                  width="25"
+                  viewBox="0 0 25 42"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <defs>
+                    <path
+                      d="M13.7918663,0.358365126 L3.39788168,7.44174259 C0.566865006,9.69408886 -0.379795268,12.4788597 0.557900856,15.7960551 C0.68998853,16.2305145 1.09562888,17.7872135 3.12357076,19.2293357 C3.8146334,19.7207684 5.32369333,20.3834223 7.65075054,21.2172976 L7.59773219,21.2525164 L2.63468769,24.5493413 C0.445452254,26.3002124 0.0884951797,28.5083815 1.56381646,31.1738486 C2.83770406,32.8170431 5.20850219,33.2640127 7.09180128,32.5391577 C8.347334,32.0559211 11.4559176,30.0011079 16.4175519,26.3747182 C18.0338572,24.4997857 18.6973423,22.4544883 18.4080071,20.2388261 C17.963753,17.5346866 16.1776345,15.5799961 13.0496516,14.3747546 L10.9194936,13.4715819 L18.6192054,7.984237 L13.7918663,0.358365126 Z"
+                      id="path-1"></path>
+                    <path
+                      d="M5.47320593,6.00457225 C4.05321814,8.216144 4.36334763,10.0722806 6.40359441,11.5729822 C8.61520715,12.571656 10.0999176,13.2171421 10.8577257,13.5094407 L15.5088241,14.433041 L18.6192054,7.984237 C15.5364148,3.11535317 13.9273018,0.573395879 13.7918663,0.358365126 C13.5790555,0.511491653 10.8061687,2.3935607 5.47320593,6.00457225 Z"
+                      id="path-3"></path>
+                    <path
+                      d="M7.50063644,21.2294429 L12.3234468,23.3159332 C14.1688022,24.7579751 14.397098,26.4880487 13.008334,28.506154 C11.6195701,30.5242593 10.3099883,31.790241 9.07958868,32.3040991 C5.78142938,33.4346997 4.13234973,34 4.13234973,34 C4.13234973,34 2.75489982,33.0538207 2.37032616e-14,31.1614621 C-0.55822714,27.8186216 -0.55822714,26.0572515 -4.05231404e-15,25.8773518 C0.83734071,25.6075023 2.77988457,22.8248993 3.3049379,22.52991 C3.65497346,22.3332504 5.05353963,21.8997614 7.50063644,21.2294429 Z"
+                      id="path-4"></path>
+                    <path
+                      d="M20.6,7.13333333 L25.6,13.8 C26.2627417,14.6836556 26.0836556,15.9372583 25.2,16.6 C24.8538077,16.8596443 24.4327404,17 24,17 L14,17 C12.8954305,17 12,16.1045695 12,15 C12,14.5672596 12.1403557,14.1461923 12.4,13.8 L17.4,7.13333333 C18.0627417,6.24967773 19.3163444,6.07059163 20.2,6.73333333 C20.3516113,6.84704183 20.4862915,6.981722 20.6,7.13333333 Z"
+                      id="path-5"></path>
+                  </defs>
+                  <g id="g-app-brand" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Brand-Logo" transform="translate(-27.000000, -15.000000)">
+                      <g id="Icon" transform="translate(27.000000, 15.000000)">
+                        <g id="Mask" transform="translate(0.000000, 8.000000)">
+                          <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                          </mask>
+                          <use fill="#696cff" xlink:href="#path-1"></use>
+                          <g id="Path-3" mask="url(#mask-2)">
+                            <use fill="#696cff" xlink:href="#path-3"></use>
+                            <use fill-opacity="0.2" fill="#FFFFFF" xlink:href="#path-3"></use>
+                          </g>
+                          <g id="Path-4" mask="url(#mask-2)">
+                            <use fill="#696cff" xlink:href="#path-4"></use>
+                            <use fill-opacity="0.2" fill="#FFFFFF" xlink:href="#path-4"></use>
+                          </g>
+                        </g>
+                        <g
+                          id="Triangle"
+                          transform="translate(19.000000, 11.000000) rotate(-300.000000) translate(-19.000000, -11.000000) ">
+                          <use fill="#696cff" xlink:href="#path-5"></use>
+                          <use fill-opacity="0.2" fill="#FFFFFF" xlink:href="#path-5"></use>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </span>
+              <span class="app-brand-text demo menu-text fw-bold ms-2">SLSUBC</span>
+            </a>
+
+            <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+              <i class="bx bx-chevron-left bx-sm align-middle"></i>
+            </a>
+          </div>
+
+          <div class="menu-inner-shadow"></div>
+
+          <ul class="menu-inner py-1">
+            
+            <li class="menu-item active open">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-detail"></i>
+                <div data-i18n="Form Layouts">Request Form</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item active">
+                  <a href="form-layouts-vertical.html" class="menu-link">
+                    <div data-i18n="Vertical Form">Work Request Form</div>
+                  </a>
+                </li>
+                
+          </ul>
+        </aside>
+        <!-- / Menu -->
+
+        <!-- Layout container -->
+        <div class="layout-page">
+          
+          <div class="content-wrapper">
+            <!-- Content -->
+
+            <div class="container-xxl flex-grow-1 container-p-y">
+              <h4 class="py-3 mb-4"><span class="text-muted fw-light"></span> W O R K   R E Q U E S T   F O R M</h4>
+
+              <!-- Basic Layout -->
+              <div class="row">
+                <div class="col-xl">
+                  <div class="card mb-4">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0">Fill This Form</h5>
+                    </div>
+                    <div class="card-body">
+                      <form  method="post" action="/process_form.php">
+                        <div style="display: flex;  align-items: center;  margin-right: 10px;"class="mb-3">
+                          <label class="form-label" for="date">Date of Request</label>
+                          <input type="date" class="form-control" name="date" id="date" />
+
+                          <label class="form-label" for="time">Time of Request</label>
+                          <input type="time" class="form-control" name="time" id="time"/>
+                        </div>
+                        <div class="mb-3">
+                          <label class="form-label" for="request">Requesting Dept./Unit/Office: </label>
+                          <input type="text" class="form-control" name="request" id="request" placeholder="Dept./Unit/Office" />
+                        </div>
+                        <label class="form-label">Work Requested:</label><br>
+                            <input type="checkbox" id="req1" name="req[]" value="System Development/Enhancement">
+                            <label for="req1"> System Development/Enhancement</label><br>
+
+                            <input type="checkbox" id="req2" name="req[]" value="Website Development/Enhancement">
+                            <label for="req2"> Website Development/Enhancement</label><br>
+
+                            <input type="checkbox" id="req3" name="req[]" value="Information System (IS) Account">
+                            <label for="req3"> Information System (IS) Account</label><br>
+
+                            <input type="checkbox" id="req4" name="req[]" value="Class Schedule">
+                            <label for="req4"> Class Schedule</label><br>
+
+                            <input type="checkbox" id="req5" name="req[]" value="Student Grades">
+                            <label for="req5"> Student Grades</label><br>
+
+                            <input type="checkbox" id="req6" name="req[]" value="Student Information">
+                            <label for="req6"> Student Information</label><br>
+
+                            <input type="checkbox" id="req7" name="req[]" value="Sub-domain registration">
+                            <label for="req7"> Sub-domain registration</label><br>
+
+                            <input type="checkbox" id="req8" name="req[]" value="Email Registration">
+                            <label for="req8"> Email Registration</label><br>
+                            <label for="req9"> Others</label>
+                            <input type="text" class="form-control" id="req9" name="req[]" placeholder="Others"><br><br>
+                            
+
+                        <div class="mb-3">
+                          <label class="form-label" for="detail">Detailed Description of Work Request (Required):</label>
+                          <input type="text" class="form-control" name="detail" id="detail"/>
+                        </div>
+                        <div class="mb-3">
+                          <label class="form-label" for="requestorName">Requestor: </label>
+                          <input type="text" class="form-control" name="requestorName" id="requestorName"/>
+                        </div>
+                        <div class="mb-3">
+                          <label class="form-label" for="action">Action Taken (ISU Staff only):</label>
+                            <textarea type="text" class="form-control" name="action" id="action"></textarea>
+                        </div>
+                        <div class="mb-3">
+                          <label class="form-label" for="approved">This will be Approved by :</label>
+                            <input type="text" class="form-control" name="approved" value="JUNNIE RYH SUMACOT - HEAD, CISA" readonly>
+                        </div>
+                        <button type="button" class="btn btn-primary next-btn">Next</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                
+                 <!-- Another Form -->
+<div class="row" style="display: none;" id="nextForm">
+  <div class="col-xl">
+    <div class="card mb-4">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <h5 class="mb-0">CITIZEN / CLIENT SATISFACTORY SURVEY</h5>
+      </div>
+      <div class="card-body">
+          <div class="mb-3">
+            <label class="form-label" for="workRequestContinuation">Detailed Description of Work Request continuation:</label>
+            <textarea class="form-control" name="workRequestContinuation" id="workRequestContinuation" rows="5"></textarea>
+          </div>
+          
+          <div class="mb-3"><p>Please choose if</p>
+            <input type="radio" id="student" name="student" value="student">
+            <label for="student">Student</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <label for="course">Course:</label>
+              <input type="text" id="course" name="course" >
+              <label for="year">Year Level:</label>
+              <input type="text" id="year" name="year" ><br>
+          <input type="radio"  name="student" value="Parent/Guardian">
+          <label for="student">Parent/Guardian</label><br>
+          <input type="radio" name="student" value="Faculty/Staff">
+          <label for="student">Faculty/Staff</label><br>
+        </div>
+
+<div class="mb-3">
+  <div style="display: inline-block;">
+    <table style="border-collapse: collapse; width: 100%;">
+      <tr>
+        <th style="border: 1px solid #dddddd; padding: 8px; background-color: #f2f2f2;">Service Dimension</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; background-color: #f2f2f2;">Very Satisfied (5)</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; background-color: #f2f2f2;">Satisfied (4)</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; background-color: #f2f2f2;">Neither Satisfied Nor Dissatisfied (3)</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; background-color: #f2f2f2;">Dissatisfied (2)</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; background-color: #f2f2f2;">Very Dissatisfied (1)</th>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Responsiveness(the willingness to help, assist and provide prompt service to citizens/clients)</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="responsiveness" value="5"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="responsiveness" value="4"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="responsiveness" value="3"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="responsiveness" value="2"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="responsiveness" value="1"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Reliability (the provision of what is needed and what was promised, following the policy and standards with zero to a minimal error rate)</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="reliability" value="5"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="reliability" value="4"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="reliability" value="3"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="reliability" value="2"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="reliability" value="1"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Access and Facilities  (the convenience of location, ample amenities for comfortable transactions, use of clear signages and modes of technology)</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="access" value="5"></td
+
+        >
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="access" value="4"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="access" value="3"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="access" value="2"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="access" value="1"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Costs -(the satisfaction with timelines of the billing, billing process/es, preferred methods of payment, reasonable payment period, value for money, the acceptable range of costs and qualitative information on the cost of each service)</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="costs" value="5"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="costs" value="4"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="costs" value="3"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="costs" value="2"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="costs" value="1"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Integrity-(the assurance that there is honesty, justice, fairness and trust in each service while dealing with citizens/clients)</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="integrity" value="5"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="integrity" value="4"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="integrity" value="3"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="integrity" value="2"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="integrity" value="1"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Communication -(the act of keeping citizens and clients informed in a language they can easily understand, as well as listening to their feedback)</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="communication" value="5"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="communication" value="4"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="communication" value="3"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="communication" value="2"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="communication" value="1"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Assurance -(the capability of frontline staff to perform their duties, product and service knowledge, understanding citizens/clients needs, helpfulness and good work relationships)</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="assurance" value="5"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="assurance" value="4"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="assurance" value="3"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="assurance" value="2"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="assurance" value="1"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Outcome -(the extent of achieving outcomes or realizing the intended benefits of government services to here)</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="outcome" value="5"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="outcome" value="4"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="outcome" value="3"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="outcome" value="2"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><input type="radio" name="outcome" value="1"></td>
+      </tr>
+      <!-- Add other dimensions similarly -->
+    </table>
+  </div>
+</div>
+
+
+          <div class="mb-3">
+            <label class="form-label" for="suggestions">Suggestions to improve our services:</label>
+            <textarea class="form-control" name="suggestions" id="suggestions" rows="5"></textarea>
+          </div>
+          <button type="button" class="btn btn-primary prev-btn">Previous</button>
+           
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <!-- Add this button after the submit button or beside it -->
+            <button class="print-btn">Print Survey Form</button>
+
+
+        
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="content-backdrop fade"></div>
+</div>
+<script >
+// JavaScript to handle form switching and printing
+document.addEventListener("DOMContentLoaded", function() {
+    const nextBtn = document.querySelector(".next-btn");
+    const prevBtn = document.querySelector(".prev-btn");
+    const currentForm = document.querySelector("form");
+    const nextForm = document.querySelector("#nextForm");
+
+    nextBtn.addEventListener("click", function() {
+        currentForm.style.display = "none";
+        nextForm.style.display = "block";
+    });
+
+    prevBtn.addEventListener("click", function() {
+        nextForm.style.display = "none";
+        currentForm.style.display = "block";
+    });
+
+    const printBtn = document.querySelector(".print-btn"); // Select the print button
+
+    printBtn.addEventListener("click", function() { // Add event listener for the print button
+        // Get the form elements and their values from the survey form
+        const workRequestContinuation = document.getElementById('workRequestContinuation').value;
+        const student = document.querySelector('input[name="student"]:checked').value;
+        const course = document.getElementById('course').value;
+        const year = document.getElementById('year').value;
+        const responsiveness = document.querySelector('input[name="responsiveness"]:checked').value;
+        const reliability = document.querySelector('input[name="reliability"]:checked').value;
+        const access = document.querySelector('input[name="access"]:checked').value;
+        const costs = document.querySelector('input[name="costs"]:checked').value;
+        const integrity = document.querySelector('input[name="integrity"]:checked').value;
+        const communication = document.querySelector('input[name="communication"]:checked').value;
+        const assurance = document.querySelector('input[name="assurance"]:checked').value;
+        const outcome = document.querySelector('input[name="outcome"]:checked').value;
+        const suggestions = document.getElementById('suggestions').value;
+
+        // Construct a printable string with the survey data
+        const printableContent = `
+            Detailed Description of Work Request Continuation: ${workRequestContinuation}
+            Student: ${student === 'student' ? 'Yes' : 'No'}
+            Course: ${course}
+            Year Level: ${year}
+            Responsiveness: ${responsiveness}
+            Reliability: ${reliability}
+            Access and Facilities: ${access}
+            Costs: ${costs}
+            Integrity: ${integrity}
+            Communication: ${communication}
+            Assurance: ${assurance}
+            Outcome: ${outcome}
+            Suggestions to improve our services: ${suggestions}
+        `;
+
+        // Open a new window and write the printable content to it
+        const printWindow = window.open('', '_blank');
+        printWindow.document.write('<html><head><title>Print Survey Form</title></head><body>');
+        printWindow.document.write('<pre>' + printableContent + '</pre>');
+        printWindow.document.write('</body></html>');
+        printWindow.document.close();
+
+        // Print the content
+        printWindow.print();
+    });
+});
+
+
+
+</script>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </footer>
+            <div class="content-backdrop fade"></div>
+          </div>
+          </div>
+      </div>
+      <div class="layout-overlay layout-menu-toggle"></div>
+    </div>
+    <script src="../assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="../assets/vendor/libs/popper/popper.js"></script>
+    <script src="../assets/vendor/js/bootstrap.js"></script>
+    <script src="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="../assets/vendor/js/menu.js"></script>
+
+    
+    <script src="../assets/js/main.js"></script>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </body>
+</html>
+
+
